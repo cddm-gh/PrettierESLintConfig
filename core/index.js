@@ -1,5 +1,6 @@
 function coreFunction() {
-  return "im core";
+  const greeting = "im core";
+  return greeting;
 }
 
 module.exports = coreFunction;
