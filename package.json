@@ -11,7 +11,8 @@
     "lint:fix": "eslint --fix .",
     "pre-commit": "npx lint-staged",
     "test": "jest --forceExit --detectOpenHandles --config=jest.config.js",
-    "test:ci:cov": "jest --forceExit --detectOpenHandles --config=jest.config.js --coverage"
+    "test:ci:cov": "jest --forceExit --detectOpenHandles --config=jest.config.js --coverage",
+    "cz": "cz"
   },
   "lint-staged": {
     "**/*.(js|ts)": [
@@ -24,6 +25,8 @@
   "license": "ISC",
   "devDependencies": {
     "@types/jest": "^27.0.2",
+    "commitizen": "^4.2.4",
+    "cz-conventional-changelog": "^3.3.0",
     "eslint": "^7.32.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-prettier": "^8.3.0",
@@ -35,5 +38,10 @@
     "jest": "^27.2.5",
     "lint-staged": "^11.2.3",
     "prettier": "^2.4.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
