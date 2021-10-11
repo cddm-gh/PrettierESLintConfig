@@ -1,0 +1,1 @@
+const myObject = {propA: 1, propB: 'Hello Prettier', propC: true, propD: [1,2,3]}

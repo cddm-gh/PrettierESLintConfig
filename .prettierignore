@@ -1,0 +1,11 @@
+# Ignore artifacts:
+build
+coverage
+node_modules
+docker-compose.yml
+Dockerfile.ci
+jest.config.js
+knexfile.js
+README.md
+package.json
+package-lock.json
