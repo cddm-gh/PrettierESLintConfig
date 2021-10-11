@@ -9,7 +9,6 @@
     "prepare": "husky install",
     "lint": "eslint . --ext js",
     "lint:fix": "eslint --fix .",
-    "pre-commit": "npx lint-staged",
     "test": "jest --forceExit --detectOpenHandles --config=jest.config.js",
     "test:ci:cov": "jest --forceExit --detectOpenHandles --config=jest.config.js --coverage",
     "cz": "cz"
