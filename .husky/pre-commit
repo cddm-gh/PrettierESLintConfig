@@ -2,4 +2,5 @@
 . "$(dirname "$0")/_/husky.sh"
 echo 'Husky - [Pre-Commit]:'
 
-npx lint-staged
+npm test
+# npx lint-staged
